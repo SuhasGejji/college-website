@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!--Header-->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logoo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">courses</a></li>
+                    <li><a href="placement.html">placements</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>JAIN COLLEGE OF ENGINEERING AND RESEARCH </h1>
+            <p>Learning made simple with all the required Hi-Tech facilities only in Jain College of Engineering and Research.</p>
+            <a href="http://jcer.in/index.php" class="hero-btn" target="_blank">click here to know more</a>
+        </div>
+    </section>
+
+    <!--course-->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Here are some of the courses our college has to offer</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduation</h3>
+                <p>Computer Science Engineering<br>Electronics And Communications Engineering<br>Civil Engineering<br>Mechanical Engineering</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Machine Learning, Artificial Intelligence<br>Embedded System, Aurdino<br>Building Bridges, Constructing Highways<br>Robotics, 2/4 Stroke Engine, CNC Machine</p>
+            </div>
+        </div>
+    </section>
+
+    <!--campus-->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Our College Has 4 Departments</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <h3>Computer Science Departent</h3>
+                <img src="computer.jpeg" alt="cs">
+            </div>
+            <div class="campus-col">
+                <h3>Electronics and Communication Departent</h3>
+                <img src="electronics.jpg" alt="ec">
+            </div>
+        </div>
+        <div class="row">
+            <div class="campus-col">
+                <h3>Civil Engineering Departent</h3>
+                <img src="civil.webp" alt="cv">
+            </div>
+            <div class="campus-col">
+                <h3>Mechanical Engineering Departent</h3>
+                <img src="mechanical.jpeg" alt="mh">
+            </div>
+        </div>
+    </section>
+
+    <!--Facilities-->
+    <section class="facilities">
+        <h1>Facilities We Provide</h1>
+        <p>We provide some of the premium facilities</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <h3>Library</h3>
+                <img src="library.jpg" alt="library">
+            </div>
+            <div class="facilities-col">
+                <h3>Laboratory</h3>
+                <img src="lab.jpg" alt="lab">
+            </div>
+        </div>
+        <div class="row">
+            <div class="facilities-col">
+                <h3>Gym</h3>
+                <img src="gym.jpg" alt="gym">
+            </div>
+            <div class="facilities-col">
+                <h3>PlayGround</h3>
+                <img src="basketball.png" alt="PlayGround">
+            </div>
+        </div>
+    </section>
+
+    <!--feedback-->
+    <section class="feedback">
+        <h1>What our students have to say</h1>
+        <p>The students feedback form</p>
+
+        <div class="row">
+            <div class="feedback-col">
+                <img src="user1.jpg" alt="suhas">
+                <div>
+                    <h3>Mr.SUHAS GEJJI</h3>
+                    <p>This is a good college<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ad?</p>
+                </div>
+            </div>
+            <div class="feedback-col">
+                <img src="user2.jpg" alt="mrABC">
+                <div>
+                    <h3>Mr.ABC</h3>
+                    <p>This is a good college<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ad?</p>
+                </div>
+            </div>
+            <div class="feedback-col">
+                <img src="user3.jpg" alt="mrXYZ">
+                <div>
+                    <h3>Ms.XYZ</h3>
+                    <p>This is a good college<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ad?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <hr>
+    <!--footer-->
+    <section class="footer">
+        <h5>Disclaimer</h5>
+        <p>This is not an official website of Jain College of Engineering and Research <br>This website is created by suhas for the academic purpose only </p>
+        <div class="icons">
+            <h5>Follow us on Social Media</h5>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <footer>All rights reserved&copy;untill 2023</footer>
+    </section>
+
+
+
+
+
+    <!--javaScript for menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right="0";
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>

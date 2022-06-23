@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!--Header-->
+    <section class="headerb">
+        <nav>
+            <a href="index.html"><img src="logoo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">courses</a></li>
+                    <li><a href="placement.html">placements</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>PLACEMENTS</h1>
+            <p>we always ensure 100% campus placements.</p>
+            <a href="http://jcer.in/placements.php" class="hero-btn" target="_blank">click here to know more</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="placements">
+            <h3>ALLIANCES AND COLLABORATIONS</h3>
+            <p>At Jain College of Engineering and Research we use state of the art resources to train our students to meet the Industry requirements.<br>The software and facilities available on the campus help students to explore opportunities in various engineering fields. Microsoft Dreamspark Alliance, Cadence, Siemens Solid Edge, Cadem, Autodesk are a few of the many resources available.</p>
+            <p><strong>We are also recognised by some estemeed IT Companies such as Infosys, Tcs, Wipro, Cognizat, Accenture, Capgemini</strong></p>
+        </div>
+        <div class="placements-inside">
+            <div>
+                <img src="infosys.png" alt="" width="250px" >
+                <img src="cognizat.jfif" alt="" width="400px">
+                <img src="tcs.png" alt="" width="400px">
+            </div>
+            <div>
+                <img src="wipro.png" alt="" width="250px">
+                <img src="accenture.png" alt="" width="400px">
+                <img src="capgemini.png" alt="" width="400px">
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <center><img src="placement.PNG" alt="" height="600px" width="800px"></center>
+        </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+        <h5>About us</h5>
+        <p>This is not an official website of Jain College of Engineering and Research <br>This website is created by suhas for the academic purpose only </p>
+        <div class="icons">
+            <h5>Follow us on Social Media</h5>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <footer>All rights reserved&copy;untill 2023</footer>
+
+
+
+    <!--javaScript for menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right="0";
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>

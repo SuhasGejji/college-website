@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!--Header-->
+    <section class="headerc">
+        <nav>
+            <a href="index.html"><img src="logoo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">courses</a></li>
+                    <li><a href="placement.html">placements</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>COURSES</h1>
+            <p>know more about the courses we offer here at JCER</p>
+            <a href="http://jcer.in/admission.php" class="hero-btn" target="_blank">click here to know more</a>
+        </div>
+    </section>
+
+    <!--course-->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Here are some of the courses our college has to offer</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduation</h3>
+                <p>Computer Science Engineering<br>Electronics And Communications Engineering<br>Civil Engineering<br>Mechanical Engineering</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Machine Learning, Artificial Intelligence<br>Embedded System, Aurdino<br>Building Bridges, Constructing Highways<br>Robotics, 2/4 Stroke Engine, CNC Machine</p>
+            </div>
+            <div class="course-col">
+                <h3>PHD</h3>
+                <p>Mathematics<br>Physics<br>Chemistry<br>Biology<br>Computer Science</p>
+            </div>
+        </div>
+    </section>
+
+    <!--campus-->
+    <section class="campus">
+        <h1>Branches</h1>
+        <p>Our College offers 4 courses</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <h3>1.Computer Science</h3>
+                <img src="cs.jpeg" alt="">
+            </div>
+            <div class="campus-col">
+                <h3>2.Electronics and Communication</h3>
+                <img src="ec.jpeg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="campus-col">
+                <h3>3.Civil Engineering</h3>
+                <img src="cv.jpeg" alt="">
+            </div>
+            <div class="campus-col">
+                <h3>4.Mechanical Engineering</h3>
+                <img src="mech.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+   
+    <!--footer-->
+    <section class="footer">
+        <h5>About us</h5>
+        <p>This is not an official website of Jain College of Engineering and Research <br>This website is created by suhas for the academic purpose only </p>
+        <div class="icons">
+            <h5>Follow us on Social Media</h5>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <footer>All rights reserved&copy;untill 2023</footer>
+    </section>
+
+
+
+
+
+    <!--javaScript for menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right="0";
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>

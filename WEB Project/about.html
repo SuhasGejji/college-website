@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!--Header-->
+    <section class="headera">
+        <nav>
+            <a href="index.html"><img src="logoo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">courses</a></li>
+                    <li><a href="placement.html">placements</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>About Us</h1>
+            <a href="https://www.jgi.ac.in/" class="hero-btn" target="_blank">click here to know more</a>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="principal">
+            <img src="princi.jfif" alt="principal">
+            <h2>Dr. S V Gorbal</h2><br><br>
+            <h3>"PRINCIPAL'S MESSAGE"</h3>
+            <p>“EDUCATION IS THE MOST POWERFUL WEAPON WHICH YOU CAN USE TO CHANGE THE WORLD.”
+                A good teacher enables a student to understand, whereas a great teacher enables a student to realize. It is only when students go through the cycle of studying, understanding and realizing; they become good professionals and great human beings.
+                
+                The JAIN Group has become a name synonymous with quality education.The group strongly believes that world-class education is the stepping-stone to progress. With a long-standing commitment towards quality teaching , learning and research. The group has a chain of Many educational institutions that encourage individuals to think, question, explore and apply their well-honed minds to scale newer heights of success.
+                
+                In Jain College of Engineering and Research, we take immense pride in the fact that our students receive the highest quality of education.
+                
+                The special emphasis is on Outcome Based Education (OBE) and Experiential Learning. The academic activities concentrate on helping the students to gain an excellent theoretical knowledge base and in the development of skills to implement them.
+                
+                We are constantly reviewing our set up to update and improve while making sure that students gain thinking skills, analytical frameworks, entrepreneurial skills, interpersonal and communication skills. Impetus for research with a focus on identified interdisciplinary areas.
+                
+                Our excellence is not just confined to the classroom; we are also notably active in conducting conferences, workshops, seminars, Research and other co-curricular activities. These activities expose students to aspects beyond the curriculum, thus adding value to their professional success. The magnificent infrastructure of JCER sets the right ambience for excellent teaching-learning.
+                
+                JCER ensures that the students prove themselves to be not only well qualified engineers but also very responsible and ideal citizens of our country.</p>
+        </div>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>VISION</h1>
+                <p>
+                    The Vision of the Institute is to identify the hidden engineering talent and to develop human resource capital in the technical field of education, and to facilitate the core competency in accordance with the company and industrial standards by meeting the persistent demands of the industries in the recent policies of globalization, which require specialized expertise and sophisticated instrumentation in the area of technology
+                </p>
+                <p><strong>"To build a sound research based technological background"</strong></p>
+            </div>
+            <div class="about-col">
+                <img src="vision1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="about-col">
+                <img src="mission2.jpg" alt="">
+            </div>
+
+            <div class="about-col">
+                <h1>MISSION</h1>
+                <p>The Mission of the Institute is to build a sound research based technological background amongst the students to precisely bridge the gap between the industrial organizations and the academic institutions leading to emerge with right selection of technology, which an end user viably can best afford economically.</p>
+                <p><strong>"To bridge the gap between the industrial organizations and the academic institutions"</strong></p>
+            </div>
+        </div>
+
+    </section>
+
+        <h5>About Us</h5>
+        <p>This is not an official website of Jain College of Engineering and Research <br>This website is created by suhas for the academic purpose only </p>
+        <div class="icons">
+            <h5>Follow us on Social Media</h5>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <footer><small>All rights reserved&copy;untill 2023</small></footer>
+    </section>
+
+
+
+
+
+    <!--javaScript for menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right="0";
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
